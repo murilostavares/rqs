@@ -1,2 +1,2 @@
 # rqs
-RoseQueenStore
+Pagina da Empresa Rosê Queen Store
