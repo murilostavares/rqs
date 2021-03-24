@@ -26,11 +26,14 @@
             <nav class="main-menu">
                 <ul>
                     <li><a href="#home">Chinelos</a></li>
-                    <li><a href="#tiaras">Tiaras</a></li>
+                    <li><a href="#tiaras">Arcos e Tiaras</a></li>
                     <li><a href="#pulseiras">Pulseiras</a></li>
                     <li><a class="external" href="https://www.instagram.com/rosequeenstore/"
                             target="_blank">Instagram</a></li>
                     <li><a href="#contact">Contato</a></li>
+                    <li><a class="external" href="./docs/Rosê Queen Store.pdf"
+                        target="_blank">Catálogo</a></li>
+                    
                 </ul>
             </nav>
         </div>
@@ -56,7 +59,7 @@
                 <img src="images/2.jpg" alt="Image" class="tm-image">
             </div>
             <div class="col-lg-6 col-md-6 col-md-pull-6 content-item background flexbox">
-                <h2 class="main-title text-center dark-blue-text"><b>Tiaras</b></h2>
+                <h2 class="main-title text-center dark-blue-text"><b>Arcos e Tiaras</b></h2>
                 <p class="section-text">Tiara Luxo em Veludo toda bordadas a mão.</p>
                 <p> Inspiradas em coroas de rainha, essa é a nova tendência do momento.</p>
                 <ul class="dark-blue-text">
@@ -66,9 +69,7 @@
                 </ul>
                 <p>Monte seu pedido da maneira que preferir!</p>
             </div>
-
         </section>
-
 
         <section class="col-md-12 content" id="pulseiras">
             <div class="col-lg-6 col-md-6 content-item">
@@ -78,11 +79,6 @@
                 <h2 class="main-title text-center dark-blue-text"><b>Pulseiras</b></h2>
                 <p>Versatilidade vem da alma e não há limites para encher os olhos de quem vê. </p>
                 <p>Não deixe para depois,temos opções de pulseiras para todas ocasiões.</p>
-                <!-- <div>
-               <button type="button" class="btn dark-blue-bordered-btn normal-btn">Small Button</button>
-               <button type="button" class="btn yellow-btn normal-btn">Download</button>
-               <button type="button" class="btn green-btn normal-btn">Demo</button>    
-           </div>              -->
             </div>
         </section>
 
@@ -93,29 +89,11 @@
             </div>
             <div class="col-lg-6 col-md-6 col-md-pull-6 content-item background flexbox">
                 <h2 class="section-title">Entre em contato</h2>
-                <p class="margin-b-25">Solicite por WhatsApp nosso catálogo ou uma cotação:</p>
+                <p class="margin-b-25">Solicite por WhatsApp uma cotação:</p>
 
                 <div class="row">
                     <form method="get" name="contact-form" class="contact-form" action="https://api.whatsapp.com/send">
                         <input type="hidden" name="phone" value="5547996992811">
-                        <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="form-group">
-                                <input name="phone" type="text" value="5547996992811" class="form-control" id="phone" placeholder="Patricia"
-                                hidden>
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pad-l-3">
-                        <div class="form-group contact-field">
-                            <input name="email" type="email" class="form-control" id="email" placeholder="Seu Email..."
-                                required>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="form-group contact-field">
-                            <input name="subject" type="text" class="form-control" id="subject"
-                                placeholder="Your Subject..." required>
-                        </div>
-                    </div> -->
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="form-group contact-field">
                                 <textarea name="text" rows="5" class="form-control" id="text"
@@ -124,7 +102,7 @@
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="form-group margin-b-0">
-                                <button type="submit" id="form-submit" class="btn no-bg btn-contact">Enviar</button>
+                                <button type="submit" id="form-submit" class="btn dark-blue-btn normal-btn">Enviar</button>
                             </div>
                         </div>
                     </form>
@@ -132,7 +110,6 @@
                 <div id="msgSubmit" class="h3 text-center hidden">Messagem Enviada!</div>
 
             </div>
-
         </section>
 
         <footer class="col-md-12 content" id="externals">
@@ -140,10 +117,14 @@
                 <img src="images/5.png" alt="Image" class="tm-image">
             </div>
             <div class="col-lg-6 col-md-6 background last about-text-container">
-                <h2 class="section-title">Outros Itens</h2>
-                <p class="about-text">Temos diversos outros itens que podem lhe interessar. </p>
+                <h2 class="section-title">Catálogo</h2>
+                <p class="about-text">Baixe nosso catálogo e conheça nossos produtos! </p>
+                <div>
+                    <form method="get" action="./docs/Rosê Queen Store.pdf">
+                        <button type="submit" class="btn dark-blue-btn normal-btn">Download</button>
+                    </form>
+                </div>
                 <br>
-                <p class="about-text"> Aguardamos seu contato! </p>
             </div>
         </footer>
 
